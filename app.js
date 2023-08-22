@@ -15,3 +15,20 @@ function soruUret(){
     console.log(parseInt(totalSayiNumber))
 }
 soruUret();
+dogruCevapSayisi = 0;
+sayac = 60;
+   function oyunaBasla() 
+    document.querySelector(".basla").remove();
+    document.querySelector(".cevapla").addEventListener("click",function(){
+      let girilenDeger = document.querySelector(".girilenDeger").value; 
+      if(girilenDeger==totalSayiNumber){ 
+        document.querySelector(".cevapKontrol").innerHTML="DOĞRU BİLDİNİZ!"
+        sayac+=2; 
+        dogruCevapSayisi++; 
+        soruUret(); 
+      }
+      else{
+        document.querySelector(".cevapKontrol").innerHTML="HATALI CEVAP!"
+        sayac-=5; 
+      }
+    })
