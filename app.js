@@ -32,3 +32,18 @@ sayac = 60;
         sayac-=5; 
       }
     })
+    atlamaSayisi = 3;
+    document.querySelector(".atla").addEventListener("click",function(){
+     atlamaSayisi -=1;
+     document.querySelector(".atla").innerHTML=`soruyu atla ${atlamaSayisi} hak`
+     soruUret();
+    })
+    const skipButton = document.getElementById('skipButton');
+    let skipCount = 0;
+    skipButton.onclick = function() {
+      skipCount++;
+     if(skipCount >= 3){
+     document.querySelector(".atla").innerHTML=`Atlama hakkınız bitti`  
+     skipButton.disabled = true;
+     }
+    }
