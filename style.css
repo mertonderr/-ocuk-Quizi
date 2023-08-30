@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-size: cover; /* Resmi ekran boyutuna sığdırmak için */
+	background-image: url(desktop-wallpaper-green-board.jpg);
+}
+
+
+.image{
+	height: 150px;
+	width: 25%;
+	display: flex;
+	margin-top: -8rem;
+	margin-left: 3rem;
+}
+.baslik{
+	color: red;
+	font-size: 27px;
+	margin-top: 5.2rem;
+	margin-left: 43rem;
+
+}
+
+
+.p{
+    margin-left: 35rem;
+    margin-top: 12rem;
+	display: flex;
+}  
+.p2{
+	margin-left: 35rem;
+	margin-top: 3rem;
+}  
