@@ -55,3 +55,11 @@ body{
 	transform: translate(0px, -5px); 
 	animation: titresim 0.5s linear infinite;
 }
+
+@keyframes titresim {
+	0% {transform: translate(0px, -5px);}
+	25% {transform: translate(0px, -10px);}
+	50% {transform: translate(0px, -5px);}
+	75% {transform: translate(0px, -10px);}
+	100% {transform: translate(0px, -5px);}
+}
