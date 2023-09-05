@@ -63,3 +63,16 @@ body{
 	75% {transform: translate(0px, -10px);}
 	100% {transform: translate(0px, -5px);}
 }
+@media screen and (max-width:650px) {
+	.game{
+		margin-left: -.5rem;
+	}
+	.image{
+		height: 87px;
+		margin-left: .5rem;
+	}
+	.baslik{
+	padding: 2rem;
+	margin-left: 2rem;
+	display: flex;
+	}
