@@ -76,3 +76,32 @@ body{
 	margin-left: 2rem;
 	display: flex;
 	}
+	.nav{
+		height: 110px;
+	}
+	.p{
+		margin-left:6rem;
+		display: flex;
+		padding: 2rem;
+		margin-top: -.1rem;
+	}
+	.buton{	margin-left: 8rem;
+		display: flex;
+		padding: 2rem;
+		margin-top: 3rem;
+		width: 30%;
+		height: 1vh;
+
+	}
+	.btnyazi{
+		margin-top: -1rem;
+	}
+	
+	
+}	
+
+.oyunp{
+	text-align: center;
+	margin-left: 1.5rem;
+	margin-top: 5rem;
+}
