@@ -129,3 +129,41 @@ body{
 
 
 }
+@media only screen and (max-width: 680px) {
+    body{
+        height: 920px;
+    }
+    .sayac{
+        margin-top: .5rem;
+        margin-left: 2rem;
+    }
+    .child{
+        margin-left: -31.2rem;
+        margin-top: -2rem;
+    }
+    .sorular{
+        margin-top: 2rem;
+        margin-left: -32rem;
+        word-wrap: break-word;
+        display: flex;
+        font-size: 10.5px;
+       
+    }
+    .soru{
+        margin-top: 3rem;
+        margin-left: -25rem; 
+    }
+    .girilenDeger{
+        margin-top: 3rem;
+        margin-left: -29rem; 
+    }
+    .cevapla{
+        margin-top: 1rem;
+        margin-left: -25.4rem;
+        display: flex; 
+    }
+    .atla{
+        margin-top: 1rem;
+        margin-left: -28rem;
+    }
+}
