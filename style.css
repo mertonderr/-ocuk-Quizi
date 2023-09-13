@@ -166,4 +166,16 @@ body{
         margin-top: 1rem;
         margin-left: -28rem;
     }
+	.basla{
+        margin-top: .1rem;
+        margin-left: 5.5rem;
+    }
+    .cevapKontrol{
+        margin-top: 1rem; 
+        margin-left: -27rem; 
+    }
+    .Butonnn{
+        margin-left: -10rem;
+        width: 15%;
+    }
 }
