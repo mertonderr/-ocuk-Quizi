@@ -23,6 +23,10 @@ body{
 	margin-left: 43rem;
 
 }
+.cevapla,.atla{
+    border-radius: 1rem;
+    background-color: rgb(7, 211, 211);
+}
 
 
 .p{
