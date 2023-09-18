@@ -17,7 +17,7 @@ function soruUret(){
 soruUret();
 dogruCevapSayisi = 0;
 sayac = 60;
-   function oyunaBasla() 
+   function oyunaBasla() {}
     document.querySelector(".basla").remove();
     document.querySelector(".cevapla").addEventListener("click",function(){
       let girilenDeger = document.querySelector(".girilenDeger").value; 
@@ -47,3 +47,17 @@ sayac = 60;
      skipButton.disabled = true;
      }
     }
+     
+    let sayac = 60; 
+    const interval = setInterval(() => { 
+    document.querySelector(".sayac").innerHTML=`Süre : ${sayac}`;
+    sayac--;
+    if(sayac<=0) {
+      clearInterval(interval);
+    document.querySelector(".sayac").innerHTML=`Süreniz Doldu! Puanınız:  ${dogruCevapSayisi*10}`;  
+    document.querySelector(".soruApp").remove(); 
+    document.querySelector(".basla").remove();  
+    }
+    }, 1000);
+    
+ 
