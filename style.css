@@ -59,6 +59,15 @@ body{
 	transform: translate(0px, -5px); 
 	animation: titresim 0.5s linear infinite;
 }
+.soruApp{
+    margin-left: 520px;
+    margin-top: 50px;
+}
+.sayac{
+    margin-left: 70px;
+    margin-top: 80px;
+    font-size: 30px;
+}
 
 @keyframes titresim {
 	0% {transform: translate(0px, -5px);}
