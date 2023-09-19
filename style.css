@@ -55,6 +55,21 @@ body{
 	color: white;
 	transition: all 2s;
 }
+.basla{
+    margin-left: 660px;
+    position: absolute;
+    margin-top: 3.7rem;  
+    border-radius: 1rem;
+    background-color: bisque;
+}
+
+.basla:hover{
+    background-color: seagreen;
+    color: white;
+}
+.girilenDeger{
+    margin-top: 1rem;
+}
 .buton:hover {
 	transform: translate(0px, -5px); 
 	animation: titresim 0.5s linear infinite;
