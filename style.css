@@ -113,7 +113,8 @@ body{
 		padding: 2rem;
 		margin-top: -.1rem;
 	}
-	.buton{	margin-left: 8rem;
+	.buton{
+			margin-left: 8rem;
 		display: flex;
 		padding: 2rem;
 		margin-top: 3rem;
