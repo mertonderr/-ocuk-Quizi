@@ -52,41 +52,41 @@ body{
         height: 920px;
     }
     .sayac{
-        margin-top: .5rem;
-        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-left: 9rem;
     }
     .child{
-        margin-left: -31.2rem;
+        margin-left: -28.2rem;
         margin-top: -2rem;
     }
     .sorular{
         margin-top: 2rem;
-        margin-left: -32rem;
+        margin-left: -30rem;
         word-wrap: break-word;
         display: flex;
-        font-size: 10.5px;
+        font-size: 12.5px;
        
     }
     .soru{
-        margin-top: 3rem;
-        margin-left: -25rem; 
+        margin-top: 5rem;
+        margin-left: -21rem; 
     }
     .girilenDeger{
         margin-top: 3rem;
-        margin-left: -29rem; 
+        margin-left: -26rem; 
     }
     .cevapla{
         margin-top: 1rem;
-        margin-left: -25.4rem;
+        margin-left: -22.4rem;
         display: flex; 
     }
     .atla{
         margin-top: 1rem;
-        margin-left: -28rem;
+        margin-left: -25rem;
     }
     .basla{
         margin-top: .1rem;
-        margin-left: 5.5rem;
+        margin-left: 9rem;
     }
     .cevapKontrol{
         margin-top: 1rem; 
