@@ -17,15 +17,11 @@ body{
 	margin-left: 3rem;
 }
 .baslik{
-	color: red;
+	color: white;
 	font-size: 27px;
 	margin-top: 5.2rem;
 	margin-left: 43rem;
 
-}
-.cevapla,.atla{
-    border-radius: 1rem;
-    background-color: rgb(7, 211, 211);
 }
 
 
@@ -37,60 +33,36 @@ body{
 .p2{
 	margin-left: 35rem;
 	margin-top: 3rem;
-}  
+}    
 .buton {  
-	margin-left: 44rem;
-	margin-top: 1rem;
-	 width: 8%;
-	padding: 10px;
-	background-color: #0b0b68;
-	color: rgb(251, 244, 244);
-	border: none;
-	border-radius: 20px;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	transition: all 0.1s ease-in-out;
-}  
-.a{
-	text-decoration: none;
-	color: white;
-	transition: all 2s;
-}
-.basla{
-    margin-left: 660px;
-    position: absolute;
-    margin-top: 3.7rem;  
-    border-radius: 1rem;
-    background-color: bisque;
-}
+			margin-left: 44rem;
+            margin-top: 1rem;
+             width: 8%;
+			padding: 10px;
+			background-color: #0b0b68;
+			color: rgb(251, 244, 244);
+			border: none;
+			border-radius: 20px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+			transition: all 0.1s ease-in-out;
+        }  
+		.a{
+			text-decoration: none;
+			color: white;
+			transition: all 2s;
+		}
+        .buton:hover {
+			transform: translate(0px, -5px); 
+			animation: titresim 0.5s linear infinite;
+		}
 
-.basla:hover{
-    background-color: seagreen;
-    color: white;
-}
-.girilenDeger{
-    margin-top: 1rem;
-}
-.buton:hover {
-	transform: translate(0px, -5px); 
-	animation: titresim 0.5s linear infinite;
-}
-.soruApp{
-    margin-left: 520px;
-    margin-top: 50px;
-}
-.sayac{
-    margin-left: 70px;
-    margin-top: 80px;
-    font-size: 30px;
-}
-
-@keyframes titresim {
-	0% {transform: translate(0px, -5px);}
-	25% {transform: translate(0px, -10px);}
-	50% {transform: translate(0px, -5px);}
-	75% {transform: translate(0px, -10px);}
-	100% {transform: translate(0px, -5px);}
-}
+		@keyframes titresim {
+			0% {transform: translate(0px, -5px);}
+			25% {transform: translate(0px, -10px);}
+			50% {transform: translate(0px, -5px);}
+			75% {transform: translate(0px, -10px);}
+			100% {transform: translate(0px, -5px);}
+		}
 @media screen and (max-width:650px) {
 	.game{
 		margin-left: -.5rem;
@@ -120,16 +92,14 @@ body{
 		margin-top: 3rem;
 		width: 30%;
 		height: 1vh;
-
-	}
+	}		
 	.btnyazi{
 		margin-top: -1rem;
 	}
-	
-	
 }	
 
 .oyunp{
+	color: white;
 	text-align: center;
 	margin-left: 1.5rem;
 	margin-top: 5rem;
@@ -145,66 +115,22 @@ body{
 	}
 	.buton{
 		margin-left: 9rem;
-		margin-top: 5rem;
-		width: 148.8px;
+		margin-top: 3.5rem;
+		width: 149.8px;
 		 transform: scale(0.7);
-	
 	}
 	.btnyazi{
-		margin-top: rem;
-		margin-left: -1.4rem;
+		margin-top: -.8rem;
+		margin-left: -1.1rem;
 		font-size: 18px;
 	}
-
+	.oyunp{
+		margin-left: 2.5rem;
+	}
+	.p{
+		margin-left: 4.8rem;
+	}
 
 }
-@media only screen and (max-width: 680px) {
-    body{
-        height: 920px;
-    }
-    .sayac{
-        margin-top: .5rem;
-        margin-left: 2rem;
-    }
-    .child{
-        margin-left: -31.2rem;
-        margin-top: -2rem;
-    }
-    .sorular{
-        margin-top: 2rem;
-        margin-left: -32rem;
-        word-wrap: break-word;
-        display: flex;
-        font-size: 10.5px;
-       
-    }
-    .soru{
-        margin-top: 3rem;
-        margin-left: -25rem; 
-    }
-    .girilenDeger{
-        margin-top: 3rem;
-        margin-left: -29rem; 
-    }
-    .cevapla{
-        margin-top: 1rem;
-        margin-left: -25.4rem;
-        display: flex; 
-    }
-    .atla{
-        margin-top: 1rem;
-        margin-left: -28rem;
-    }
-	.basla{
-        margin-top: .1rem;
-        margin-left: 5.5rem;
-    }
-    .cevapKontrol{
-        margin-top: 1rem; 
-        margin-left: -27rem; 
-    }
-    .Butonnn{
-        margin-left: -10rem;
-        width: 15%;
-    }
-}
+
+

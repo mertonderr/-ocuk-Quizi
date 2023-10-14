@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    height: 89.4vh;
+    background-image:linear-gradient(rgba(86, 101, 232, 0.7),rgba(85, 88, 158, 0.468)),url(61bhLNbIdrL._AC_UF1000\,1000_QL80_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.soruApp{
+    margin-left: 520px;
+    margin-top: 50px;
+}
+.sayac{
+    margin-left: 70px;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.cevapla,.atla{
+    border-radius: 1rem;
+    background-color: rgb(7, 211, 211);
+}
+.resim{
+    margin-top: -370px;
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+.basla{
+    margin-left: 660px;
+    position: absolute;
+    margin-top: 3.7rem;  
+    border-radius: 1rem;
+    background-color: bisque;
+}
+
+.basla:hover{
+    background-color: seagreen;
+    color: white;
+}
+.girilenDeger{
+    margin-top: 1rem;
+}
+.soruu{
+    margin-left: 32.2rem;
+}
+.sayac{
+    background-image: none;
+    margin-top: 5rem;
+    margin-left: 35rem;
+}
+@media only screen and (max-width: 680px) {
+    body{
+        height: 920px;
+    }
+    .sayac{
+        margin-top: 1rem;
+        margin-left: 9rem;
+    }
+    .child{
+        margin-left: -28.2rem;
+        margin-top: -2rem;
+    }
+    .sorular{
+        margin-top: 2rem;
+        margin-left: -30rem;
+        word-wrap: break-word;
+        display: flex;
+        font-size: 12.5px;
+       
+    }
+    .soru{
+        margin-top: 5rem;
+        margin-left: -21rem; 
+    }
+    .girilenDeger{
+        margin-top: 3rem;
+        margin-left: -26rem; 
+    }
+    .cevapla{
+        margin-top: 1rem;
+        margin-left: -22.4rem;
+        display: flex; 
+    }
+    .atla{
+        margin-top: 1rem;
+        margin-left: -25rem;
+    }
+    .basla{
+        margin-top: .1rem;
+        margin-left: 9rem;
+    }
+    .cevapKontrol{
+        margin-top: 1rem; 
+        margin-left: -27rem; 
+    }
+    .Butonnn{
+        margin-left: -10rem;
+        width: 15%;
+    }
+   
+    
+   
+}
+
+
+    
